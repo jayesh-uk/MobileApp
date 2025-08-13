@@ -1,20 +1,15 @@
 import React from 'react';
-import {StyleSheet, Text, View} from 'react-native';
+import { StackNavigation } from './routes/StackNavigator';
+import BottomTabs from './routes/BottomTabNavigator'
 
 const App = () => {
   return (
-    <View style={styles.container}>
-      <Text>Hello World 👋🌍!</Text>
-    </View>
+    true ? (
+      <StackNavigation />
+    ) : (
+      <BottomTabs />
+    ) 
   );
 };
-
-const styles = StyleSheet.create({
-  container:{
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-  }
-})
 
 export default App;
