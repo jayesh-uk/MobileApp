@@ -4,7 +4,7 @@ import BottomTabs from './routes/BottomTabNavigator'
 
 const App = () => {
   return (
-    true ? (
+    false ? (
       <StackNavigation />
     ) : (
       <BottomTabs />

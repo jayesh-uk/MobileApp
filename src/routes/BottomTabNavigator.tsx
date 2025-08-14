@@ -9,9 +9,9 @@ function MyTabs() {
   return (
     <NavigationContainer>
         <Tab.Navigator>
-        <Tab.Screen name="Home" component={HomeScreen} />
-        <Tab.Screen name="Info" component={InfoScreen} />
-        <Tab.Screen name="DInfo" component={InfoScreen} />
+          <Tab.Screen name="Home" component={HomeScreen} />
+          <Tab.Screen name="Info" component={InfoScreen} />
+          <Tab.Screen name="DInfo" component={InfoScreen} />
         </Tab.Navigator>
     </NavigationContainer>
   );
