@@ -5,12 +5,12 @@ import DrawerNavigation from './routes/DrawerNavigator'
 
 const App = () => {
   return (
-    // false ? (
-    //   <StackNavigation />
-    // ) : (
-    //   <BottomTabs />
-    // ) 
-    <DrawerNavigation />
+    false ? (
+      <StackNavigation />
+    ) : (
+      <BottomTabs />
+    ) 
+    // <DrawerNavigation />
   );
 };
 
